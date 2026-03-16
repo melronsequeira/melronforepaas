@@ -1,5 +1,5 @@
 from forepaas.dwh.connect import connect
-import logging
+#import logging
 import pandas
 import sqlalchemy
 logger = logging.getLogger(__name__)
