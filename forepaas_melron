@@ -1,4 +1,3 @@
-
 from forepaas.dwh.connect import connect
 import logging
 import pandas
