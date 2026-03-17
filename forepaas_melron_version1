@@ -1,0 +1,14 @@
+from forepaas.dwh.connect import connect
+import melron
+import logging
+import pandas
+import sqlalchemy
+logger = logging.getLogger(__name__)
+
+
+def customfunc(event):
+
+    logger.info("Begin function customfunc")
+    # do your code here
+    logger.info(f"pandas:{pandas.__version__}")
+    logger.info("END function customfunc")
